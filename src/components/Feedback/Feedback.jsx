@@ -8,7 +8,7 @@ import {FeedbackOptions} from "./FeedbackOptions"
 import options from '../Data/options.json';
 
 class Feedback extends React.Component {
-  // state значение по умолчанию
+  // state значение по умолчанию +
   static defaultProps = {
       initialValueGood: 0,
       initialValueNeutral: 0,
